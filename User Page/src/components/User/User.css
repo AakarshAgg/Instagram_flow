@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-bottom: 10px;
+}
+body {
+    background-color: rgb(229, 235, 235);
+}
+
+#main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logout{
+    padding:10px 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+}
+#logout:hover{
+    background-color: rgb(138, 7, 7);
+}
+
+#section>img{
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+.section p{
+    margin-top: 10px;
+}
+
+#userBio{
+    font-size: 15px;
+}
+
+#userEmail{
+    color: rgb(177, 173, 173);
+    font-size: 19px;
+}
+#follow{
+    color: rgb(177, 173, 173);
+    font-size: 19px;
+}
+#userName{
+  font-weight: 700;
+}
